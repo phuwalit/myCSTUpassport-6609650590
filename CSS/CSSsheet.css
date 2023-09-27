@@ -1,0 +1,74 @@
+
+body{
+    display: block;
+    justify-content: center;
+    background-size:100%;
+    margin-top: 75px;
+    margin-right: 205px;
+
+}
+.backgroundblock{
+    display: inline-flex;
+ 
+}
+.left {
+    float:left;
+    background-color: rgb(66, 61, 223) ;
+    width: 310px;
+    height: 470px;
+    border-radius: 6px;
+    border: solid 2px;
+    
+    
+    
+
+}
+.right {
+    float: right;
+    background-color:rgb(230, 87, 87);
+    height: 470px;
+    width: 400px;
+    border-radius: 3px;
+    border: solid 2px;
+   
+}
+span{
+    margin-left: 20px;
+    text-align: left;
+    font-size: large;
+}
+.s1{
+
+}
+.s2{
+
+}
+h2{
+    text-align: center;
+}
+.mypic {
+    margin-left: 25px;
+    margin-top: 30px;
+   
+    
+}
+.iconcontroller{
+    position: relative;
+    top: 350px;
+    left: 130px;
+}
+.rpacman{
+    position: relative;
+    top: -65px;
+    left: 280px;
+    z-index: -1;
+}
+.opacman{
+    position: relative;
+    top: 250px;
+    left: 1150px;
+    z-index: -1;
+}
+.vdo{
+    margin-left: 75px;
+}
