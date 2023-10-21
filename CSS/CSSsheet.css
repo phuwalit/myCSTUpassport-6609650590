@@ -1,4 +1,6 @@
 
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
 body{
     
    
@@ -97,3 +99,209 @@ h2{
     margin: 0;
     padding: 0;
 }
+}
+@media only screen and (max-width: 768px)
+{
+/* For mobile phones: */
+
+body{
+    
+    background: size 75px;;
+
+}
+.backgroundblock{
+    display: block;
+ 
+}
+.left {
+    float:left;
+    background-color: rgb(66, 61, 223) ;
+    width: 400px;
+    height: 470px;
+    border-radius: 6px;
+    border: solid 2px;
+    
+    
+    
+
+}
+.right {
+    float: left;
+    background-color:rgb(230, 87, 87);
+    height: 470px;
+    width: 400px;
+    border-radius: 3px;
+    border: solid 2px;
+   
+}
+span{
+    margin-left: 20px;
+    text-align: left;
+    font-size: large;
+}
+.s1{
+
+}
+.s2{
+
+}
+h2{
+    text-align: center;
+}
+.mypic {
+    margin-left: 70px;
+    margin-top: 50px;
+    height: 320px;
+    
+}
+.iconcontroller{
+    position: relative;
+    top: 450px;
+    left: -20px;
+    
+}
+.rpacman{
+    position: relative;
+    top: 255px;
+    left: -200px;
+    z-index: -1;
+}
+.opacman{
+    position: relative;
+    top: 1100px;
+    left: 350px;
+    z-index: -1;
+}
+.vdo{
+    margin-left: 75px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+.bar {
+    color: azure;
+    list-style: none;
+    display: inline-block;
+    transition: all 0.3 ease 0s;
+    
+
+}
+.bar:hover {
+    color: rgb(111, 111, 224);
+}
+.content {
+
+    margin-top: 75px;
+    margin-right: 50px;
+}
+.topbar {
+    margin: 0;
+    padding: 0;
+}
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    body{
+       
+        background: size 75px;;
+    
+    }
+    .backgroundblock{
+        display: ;
+     
+    }
+    .left {
+        float:left;
+        background-color: rgb(66, 61, 223) ;
+        width: 300px;
+        height: 470px;
+        border-radius: 6px;
+        border: solid 2px;
+        
+        
+        
+    
+    }
+    .right {
+        float: right;
+        background-color:rgb(230, 87, 87);
+        height: 470px;
+        width: 300px;
+        border-radius: 3px;
+        border: solid 2px;
+       
+    }
+    span{
+        margin-left: 20px;
+        text-align: left;
+        font-size: large;
+    }
+    .s1{
+    
+    }
+    .s2{
+    
+    }
+    h2{
+        text-align: center;
+    }
+    .mypic {
+        margin-left: 20px;
+        margin-top: 50px;
+      
+        
+    }
+    .iconcontroller{
+        position: relative;
+        top: 470px;
+        left: -370px;
+        
+    }
+    .rpacman{
+        position: relative;
+        top: 65px;
+        left: -200px;
+        z-index: -1;
+    }
+    .opacman{
+        position: relative;
+        top: 1100px;
+        left: 350px;
+        z-index: -1;
+    }
+    .vdo{
+        margin-left: 20px;
+        width: 250px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        height: 50px;
+    }
+    .bar {
+        color: azure;
+        list-style: none;
+        display: inline-block;
+        transition: all 0.3 ease 0s;
+        
+    
+    }
+    .bar:hover {
+        color: rgb(111, 111, 224);
+    }
+    .content {
+    
+        margin-top: 75px;
+        margin-right: 50px;
+    }
+    .topbar {
+        margin: 0;
+        padding: 0;
+    }
+    }
