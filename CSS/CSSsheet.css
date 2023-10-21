@@ -7,8 +7,9 @@ body{
 
 }
 .backgroundblock{
-    display: block;
-    margin-top: -100px;
+    display:block;
+    margin: 0px;
+    width: auto;
 }
 .left {
     float:left;
@@ -110,10 +111,9 @@ h2{
     }
     .backgroundblock{
         display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        
+        margin: 0px;
+        width: auto;
+        margin-left: -450px;
     }
     .left {
         float:left;
@@ -190,11 +190,10 @@ body{
 
 }
 .backgroundblock{
-    display: flex;
-    margin-left: 0px;
-    justify-content: center;
-    align-items: center;
+    display: inline-flex;
+    margin: 0px;
 
+    width: auto;
 }
 .left {
     float:left;
