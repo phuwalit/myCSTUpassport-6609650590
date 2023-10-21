@@ -9,7 +9,6 @@ body{
 .backgroundblock{
     display: block;
     margin-top: -100px;
-    margin-left: 50px;
 }
 .left {
     float:left;
@@ -111,7 +110,8 @@ h2{
     }
     .backgroundblock{
         display: inline-flex;
-        margin-left: -410px;
+        justify-content: center;
+        align-items: center;
         margin-top: 10px;
         
     }
@@ -192,6 +192,8 @@ body{
 .backgroundblock{
     display: flex;
     margin-left: 0px;
+    justify-content: center;
+    align-items: center;
 
 }
 .left {
