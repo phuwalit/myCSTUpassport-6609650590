@@ -1,20 +1,32 @@
+
 @media only screen and (max-width: 768px){
 /* For mobile phones: */
-
+.header{
+    border: 3px solid black;
+    border-radius: 3px;
+    background-color:whitesmoke;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px;
+}
 body{
     
+
     background: size 75px;;
+    
 
 }
 .backgroundblock{
-    display:block;
-    margin: 0px;
-    width: auto;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: -400px;
+
 }
 .left {
-    float:left;
+   
     background-color: rgb(66, 61, 223) ;
-    width: 400px;
+    width: 300px;
     height: 470px;
     border-radius: 6px;
     border: solid 2px;
@@ -24,13 +36,25 @@ body{
 
 }
 .right {
-    float: left;
+   
     background-color:rgb(230, 87, 87);
     height: 470px;
-    width: 400px;
+    width: 300px;
     border-radius: 3px;
     border: solid 2px;
    
+}
+.containbar{
+    
+    
+    
+}
+.bar{
+    background-color: rgb(205, 87, 40);
+    margin: 5px;
+    border: 3px solid black;
+    padding: 8px;
+    width: 100px;
 }
 span{
     margin-left: 20px;
@@ -47,55 +71,50 @@ h2{
     text-align: center;
 }
 .mypic {
-    margin-left: 70px;
-    margin-top: 50px;
-    height: 320px;
+    margin-left: 15px;
+    margin-top: 30px;
+   
     
 }
 .iconcontroller{
-    position: absolute;
-    top: 470px;
-    left: 30px;
-    
+    position: relative;
+    top: 590px;
+    left: -80px;
 }
 .rpacman{
     position: relative;
-    top: 70px;
-    left: -200px;
+    top: 400px;
+    left: -50px;
     z-index: -1;
+    margin: 0;
 }
 .opacman{
     position: relative;
-    top: 900px;
-    left: 330px;
+    top: 1400px;
+    left:  270px;
     z-index: -1;
+    margin: 0;
+
 }
 .vdo{
-    margin-left: 75px;
+    margin-left: 20px;
 }
-.header {
-    display: inline-block;
-    align-items: center;
-    background-color: black;
-    height: 80spx;
-    width: 150px;
-  
+.containbar {
+
 }
 .bar {
-    color: azure;
+    color: black;
+    list-style: none;
+    display: inline-block;
     transition: all 0.3 ease 0s;
-    padding: 3px;
-
     
 
 }
 .bar:hover {
-    color: rgb(111, 111, 224);
+    color: rgb(255, 255, 255);
 }
 .content {
 
-    margin-top: 75px;
-    margin-right: 50px;
 }
 .topbar {
     margin: 0;
@@ -104,21 +123,32 @@ h2{
 }
 @media only screen and (min-width: 600px){
     /* For tablets: */
+    .header{
+        border: 3px solid black;
+        border-radius: 3px;
+        background-color:whitesmoke;
+        margin-bottom: 100px;
+        text-align: center;
+        padding: 20px;
+    }
     body{
-       
+        
+    
         background: size 75px;;
+        
     
     }
     .backgroundblock{
-        display: inline-flex;
-        margin: 0px;
-        width: auto;
-        margin-left: -450px;
+        display:flex;
+        flex-direction: column;
+
+
+    
     }
     .left {
-        float:left;
+       
         background-color: rgb(66, 61, 223) ;
-        width: 300px;
+        width: 350px;
         height: 470px;
         border-radius: 6px;
         border: solid 2px;
@@ -128,13 +158,24 @@ h2{
     
     }
     .right {
-        float: right;
+       
         background-color:rgb(230, 87, 87);
         height: 470px;
-        width: 300px;
+        width: 350px;
         border-radius: 3px;
         border: solid 2px;
        
+    }
+    .containbar{
+        
+        
+        
+    }
+    .bar{
+        background-color: rgb(205, 87, 40);
+        margin: 30px;
+        border: 3px solid black;
+        padding: 8px;
     }
     span{
         margin-left: 20px;
@@ -151,37 +192,70 @@ h2{
         text-align: center;
     }
     .mypic {
-        margin-left: 25px;
-        margin-top: 50px;
-      
+        margin-left: 15px;
+        margin-top: 30px;
+       
         
     }
     .iconcontroller{
         position: relative;
-        top: 250px;
-        left: 130px;
-        
+        top: 450px;
+        left: -70px;
     }
     .rpacman{
         position: relative;
-        top: -90px;
-        left: 300px;
+        top: 300px;
+        left: 20px;
         z-index: -1;
+        margin: 0;
     }
     .opacman{
         position: relative;
-        top: 250px;
-        left: 1050px;
+        top: 1250px;
+        left: 300px;
         z-index: -1;
+        margin: 0;
+    
     }
     .vdo{
-        margin-left: 20px;
-        width: 250px;
+        margin-left: 75px;
     }
-
+    .containbar {
+       margin-top: -100px;
+    
+    }
+    .bar {
+        color: black;
+        list-style: none;
+        transition: all 0.3 ease 0s;
+        margin: 3px;
+        width: 330px;
+        margin-left: 0;
+        
+        
+    
+    }
+    .bar:hover {
+        color: rgb(255, 255, 255);
+    }
+    .content {
+    
+    }
+    .topbar {
+        margin: 0;
+        padding: 0;
+    }
 }
 @media only screen and (min-width: 768px){
     /* For desktop: */
+.header{
+    border: 3px solid black;
+    border-radius: 3px;
+    background-color:whitesmoke;
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 20px;
+}
 body{
     
 
@@ -190,13 +264,16 @@ body{
 
 }
 .backgroundblock{
-    display: inline-flex;
-    margin: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 200px;
+    flex-direction: row;
+    margin-left: -300px;
 
-    width: auto;
 }
 .left {
-    float:left;
+   
     background-color: rgb(66, 61, 223) ;
     width: 310px;
     height: 470px;
@@ -208,13 +285,24 @@ body{
 
 }
 .right {
-    float: right;
+   
     background-color:rgb(230, 87, 87);
     height: 470px;
     width: 400px;
     border-radius: 3px;
     border: solid 2px;
    
+}
+.containbar{
+    
+    
+    
+}
+.bar{
+    background-color: rgb(205, 87, 40);
+    margin: 30px;
+    border: 3px solid black;
+    padding: 8px;
 }
 span{
     margin-left: 20px;
@@ -231,57 +319,51 @@ h2{
     text-align: center;
 }
 .mypic {
-    margin-left: 25px;
+    margin-left: 15px;
     margin-top: 30px;
    
     
 }
 .iconcontroller{
     position: relative;
-    top: 350px;
-    left: 130px;
+    top: 220px;
+    left: 300px;
 }
 .rpacman{
     position: relative;
-    top: -65px;
-    left: 280px;
+    top: -90px;
+    left: 500px;
     z-index: -1;
+    margin: 0;
 }
 .opacman{
     position: relative;
-    top: 250px;
-    left: 1150px;
+    top: 300px;
+    left: 1350px;
     z-index: -1;
+    margin: 0;
+
 }
 .vdo{
     margin-left: 75px;
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    height: 50px;
+.containbar {
+    position: relative;
+    top: 100px;
+
 }
 .bar {
-    color: azure;
+    color: black;
     list-style: none;
-    display: inline-block;
     transition: all 0.3 ease 0s;
+    width: 100px;
+    
     
 
 }
 .bar:hover {
-    color: rgb(111, 111, 224);
+    color: rgb(255, 255, 255);
 }
-.content {
 
-    margin-top: 75px;
-    margin-right: 50px;
-}
-.topbar {
-    margin: 0;
-    padding: 0;
-}
 }
 
